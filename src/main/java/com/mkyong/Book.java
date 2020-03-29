@@ -22,6 +22,7 @@ public class Book {
     public Book() {
     }
 
+    //parameterized constructor
     public Book(Long id, String name, String author, BigDecimal price) {
         this.id = id;
         this.name = name;
